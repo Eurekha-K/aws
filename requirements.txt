@@ -12,7 +12,7 @@ pydantic
 pydantic_core
 
 python-multipart
-
+mangum
 requests
 
 supervision
