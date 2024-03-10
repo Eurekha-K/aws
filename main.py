@@ -11,6 +11,7 @@ import numpy as np
 from mangum import Mangum
  
 app = FastAPI()
+handler = Mangum(app)
  
 # Allow CORS for your React app
 app.add_middleware(
